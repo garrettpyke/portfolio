@@ -22,7 +22,7 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
+Include images of wireframe with a description of the specific wireframe.   
 
 - [Mobile](https://i.imgur.com/P3iBEZf.jpg)
 - [Desktop](https://i.imgur.com/xpOWo0E.jpg)
