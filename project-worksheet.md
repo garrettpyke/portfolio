@@ -21,13 +21,12 @@ This project will be the first draft of the framework for my personal portfolio 
 
 Include images of wireframe with a description of the specific wireframe.   
 
-- Mobile - (please see `wireframe.pdf`)
-- Desktop - (please see `wireframe.pdf`)
+- Mobile & Desktop - [wireframe](https://git.generalassemb.ly/garrett-pyke/project-1-portfolio/blob/master/Wireframe.pdf)
 
 
 ## Time/Priority Matrix 
 
-* Please see priority - (please see `priority-matrix.pdf`)
+* [Priority Matrix](https://git.generalassemb.ly/garrett-pyke/project-1-portfolio/blob/master/priority-matrix.pdf)
 
 ### MVP/PostMVP - 5min
 
