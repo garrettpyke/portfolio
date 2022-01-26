@@ -7,35 +7,33 @@
         display: flex;
     }
 
-    
 
     #header {
 
     }
 
     .main container {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
+        
         
     }
 
     #top-container {
-        background-color: lightseagreen;
+       
         
     }
 
     #bottom-container {
        
-        /* display: block; */
-        height: 250px;      
-        /* text-align: center; */
+        /* display: block;  */
+       
+        
         /* font-size: 50px; */
     }
 
-    #footer {
+    /* #footer {
         height: 100px;
         width: 100%;
-    }   
+    }    */
 
 
  /* ---Tablet styling---  */

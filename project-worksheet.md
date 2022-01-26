@@ -90,6 +90,18 @@ A brief code snippet of functionality and description:
 
 ## Citations 
 - Matt Fartley `mfarley.ca` for layout ideas
+- Stack Overflow for vertically aligning text: <br>
+	`	div { 					` <br>
+	`height: 100px;				` <br>
+	line-height: 100px;
+	text-align: center;
+	border: 2px dashed #f69c55;
+	}
+	span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	}							`
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
