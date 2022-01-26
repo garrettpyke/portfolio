@@ -88,6 +88,9 @@ A brief code snippet of functionality and description:
 }
 ```
 
+## Citations 
+- Matt Fartley `mfarley.ca` for layout ideas
+
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 

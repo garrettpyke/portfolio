@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit:wght@300&family=Poiret+One&display=swap');
+
+* {
+   font-family: 'Kanit', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    /* padding: none; */
+}
+
+.main-container {
+    display: grid;
+}
+
+#top-container div {
+    text-align: center;
+}
+
+#top-container img {
+    border-radius: 70%;
+    border: black 5px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    
+}
+
+#bottom-container {
+    display: flex;
+    background-color: lightsteelblue;
+}

@@ -1,0 +1,45 @@
+/* ---Mobile styling---  */  
+
+    .wrapper {
+        height: 100px;
+        width: 100%;
+        background-color: paleturquoise;
+        display: flex;
+    }
+
+    
+
+    #header {
+
+    }
+
+    .main container {
+        display: grid;
+        
+    }
+
+    #top-container {
+        background-color: lightseagreen;
+        
+    }
+
+    #footer {
+        height: 100px;
+        width: 100%;
+    }   
+
+
+ /* ---Tablet styling---  */
+@media screen and (min-width: 768px) {
+    
+    #container {
+        background-color: lightgoldenrodyellow;
+    }
+
+}
+
+/* ---Desktop styling---  */
+@media screen and (min-width: 992px) { 
+
+
+}
