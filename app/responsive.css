@@ -15,12 +15,21 @@
 
     .main container {
         display: grid;
+        grid-template-rows: 2fr 1fr;
         
     }
 
     #top-container {
         background-color: lightseagreen;
         
+    }
+
+    #bottom-container {
+        background-color: lightsteelblue;
+        display: block;
+        height: 250px;      
+        text-align: center;
+        /* font-size: 50px; */
     }
 
     #footer {

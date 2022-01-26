@@ -13,21 +13,21 @@ h2 {
     display: grid;
 }
 
+#bottom-container {
+    font-size: 2.5em;
+}
+
 #top-container div {
     text-align: center;
 }
 
 #top-container img {
     border-radius: 70%;
-    border: black 5px solid;
+    margin: 40px 0px 0px 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
+    width: 300px;
     
 }
 
-#bottom-container {
-    display: flex;
-    background-color: lightsteelblue;
-}
