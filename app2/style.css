@@ -5,11 +5,36 @@
    font-size: 100%;
 }
 
-.wrapper {
-    /* height: 100px;
-    width: 100%; */
+.header {
     background-color: paleturquoise;
     display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: paleturquoise;
+    display: flex;
+}
+
+/* maybe make a header & footer section since these are common */
+/* .wrapper {
+  
+    background-color: paleturquoise;
+    display: flex;
+} */
+
+#dot {
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    font-size:1em;
+    width:2.5em;
+    height:2.5em;
+    line-height:2.5em;
+    text-align:center;
+    vertical-align:middle;
+    margin-right:1em;
+    color:white;
 }
 
 h2 {
