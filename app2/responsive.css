@@ -1,14 +1,9 @@
 /* ---Mobile styling---  */  
 
-    .wrapper {
-        height: 100px;
-        width: 100%;
-        background-color: paleturquoise;
-        display: flex;
-    }
+  
 
 
-    #header {
+    /* #header {
 
     }
 
@@ -24,11 +19,11 @@
 
     #bottom-container {
        
-        /* display: block;  */
+         display: block;  
        
         
-        /* font-size: 50px; */
-    }
+         font-size: 50px; 
+    } */
 
     /* #footer {
         height: 100px;
@@ -39,9 +34,9 @@
  /* ---Tablet styling---  */
 @media screen and (min-width: 768px) {
     
-    #container {
+    /* #top-container {
         background-color: lightgoldenrodyellow;
-    }
+    } */
 
 }
 
