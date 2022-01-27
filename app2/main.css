@@ -13,7 +13,18 @@
 
 .header h3 {
     color: #6C62FF;
+    font-size: 2rem;
+   
 }
+
+#hamburger {
+    margin-right: .65em;
+}
+
+/* #contact img {
+    width: 10rem;
+    border-radius: 50%; 
+} */
 
 .footer {
     background-color: paleturquoise;
