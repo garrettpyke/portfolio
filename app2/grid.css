@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects {
+    display: grid;
+
+}
+
+.main-container {
+    display: grid;
+    grid-template-rows: 1fr 7fr 7fr 1fr;
+  
+}
+
+.projects {
+   display: grid;
+   grid-template-rows: 5rem 1fr 1fr 1fr;
+   grid-gap: 5px;
+}
+
+.project-1 {
+    grid-row: 2/3;
+}
+
+.footer {
+    display: flex;
+} 
