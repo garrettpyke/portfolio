@@ -24,10 +24,6 @@
     border-radius: 50%; 
 } */
 
-.footer {
-    background-color: #02C39A; 
-}
-
 /* maybe make a header & footer section since these are common */
 /* .wrapper {
     background-color: paleturquoise;
@@ -87,17 +83,61 @@ h3 {
     text-align: center;
 } 
 
-.projects p {
-    margin: .75rem;
+#projects-title {
+    margin: .75rem;   
     color: white;
+    font-size: 3rem;;
+}
+
+.projects p {
+    margin: 0;
+    color: white;
+}
+
+.projects span {
+    font-size: 4rem;
 }
 
 .project {
     background-color: #70a0af;
     background-color: #4166DC;
-    border: 10px solid white;
+    border: 8px solid white;
     border-radius: 20px;
 }
 
+.contact {
+    background-color: #4166DC;;
+}
+
+.contact p {
+    color: white;
+    font-size: 3rem;
+    margin: 1rem 0rem 4rem 3rem;
+}
+
+.contact label {
+    color: white;
+    font-size: 3rem;
+    margin: 1rem 0rem 0rem 3rem;
+}
+
+input {
+    height: 4rem;
+    width: 30rem;
+}
+
+#message {
+    height: 25rem;
+    width: 35rem;
+    margin: 2rem;
+}
+
+.about {
+    background-color: #0A3200;
+}
+
+.footer {
+    background-color: #02C39A; 
+}
 
  

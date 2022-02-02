@@ -10,7 +10,7 @@
 
 .main-container {
     display: grid;
-    grid-template-rows: 1fr 7fr 7fr 1fr;
+    grid-template-rows: 1fr 7fr 7fr 7fr 7fr 1fr;
   
 }
 
@@ -19,6 +19,10 @@
    grid-template-columns: 1fr 1fr 1fr;
    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
    grid-gap: 5px;
+}
+
+#projects-title {
+
 }
 
 .project-1 {
