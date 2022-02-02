@@ -6,7 +6,7 @@
 }
 
 .header {
-    background-color: paleturquoise;
+    /* background-color: #02C39A; */
 }
 
 .header h3 {
@@ -25,7 +25,7 @@
 } */
 
 .footer {
-    background-color: paleturquoise; 
+    background-color: #02C39A; 
 }
 
 /* maybe make a header & footer section since these are common */
@@ -57,7 +57,8 @@
 
 h2 {
     font-size: 3rem;
-    /* padding: none; */
+    color: white;
+    margin: 0;
 }
 
 h3 {
@@ -65,7 +66,7 @@ h3 {
 }
 
 .home {
-    background-color: lightseagreen;
+    background-color: #00A896;
     text-align: center;
 }
 
@@ -81,18 +82,22 @@ h3 {
 }
 
 .projects {
-    background-color: #75756B;
+    background-color: #003049;
     font-size: 2.5em;
     text-align: center;
 } 
 
 .projects p {
     margin: .75rem;
+    color: white;
 }
 
 .project {
-    border: 2px solid black;
+    background-color: #70a0af;
+    background-color: #4166DC;
+    border: 10px solid white;
     border-radius: 20px;
 }
 
 
+ 
