@@ -145,8 +145,19 @@ input {
     background-color: #0A3200;
 }
 
+.about p {
+    color: white;
+    font-size: 3rem;
+    margin: 2rem 0rem 4rem 3rem;
+}
+
+.about img {
+    width: 20%;
+    height: 20%;
+}
+
 .footer {
-    background-color: #02C39A; 
+    /* background-color: #02C39A;  */
 }
 
  
