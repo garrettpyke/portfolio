@@ -1,35 +1,30 @@
 /* ---Mobile styling---  */  
-
-  
-
-
-    /* #header {
-
+    #nav-bar {
+        display: none;
     }
 
-    .main container {
+    .contact {
         
-        
-    }
-
-    #top-container {
-       
+        display: grid;
+        grid-template-columns: .3fr 1fr .75fr;
         
     }
 
-    #bottom-container {
-       
-         display: block;  
-       
-        
-         font-size: 50px; 
-    } */
+    .contact form {
+        /* text-align: center; */
+    }
 
-    /* #footer {
-        height: 100px;
-        width: 100%;
-    }    */
+    .contact #submit {
+        display: block;
+        text-align: center;
+        /* margin-right: 20rem; */
+    }
+    
+    .js-app {
+        background-color: white;
+    }
 
+   
 
  /* ---Tablet styling---  */
 @media screen and (min-width: 768px) {
@@ -41,7 +36,24 @@
 }
 
 /* ---Desktop styling---  */
-@media screen and (min-width: 992px) { 
+@media screen and (max-width: 992px) { 
 
+    .header {
+        display: flex;
+        align-content:space-between;
+    }
 
+    .home img {
+        width: 50%;
+    }
+
+    /* .home #my-name {
+        margin: 20rem;
+    } */
+
+   .contact {
+       display: block;
+   }
+
+   
 }
