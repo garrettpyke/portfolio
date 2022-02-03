@@ -10,7 +10,7 @@
 }
 
 .header h3 {
-    color: #6C62FF;
+    color: #4166DC;
     font-size: 2rem;
    
 }
@@ -32,6 +32,7 @@
 
 #dot {
     background-color: #6C62FF;
+    background-color: #4166DC;
     border-radius: 50%;
     display: inline-block;
     margin-top: .35em;
@@ -99,7 +100,6 @@ h3 {
 }
 
 .project {
-    background-color: #70a0af;
     background-color: #4166DC;
     border: 8px solid white;
     border-radius: 20px;
@@ -112,7 +112,7 @@ h3 {
 .contact p {
     color: white;
     font-size: 3rem;
-    margin: 1rem 0rem 4rem 3rem;
+    margin: 2rem 0rem 4rem 3rem;
 }
 
 .contact label {
@@ -129,7 +129,16 @@ input {
 #message {
     height: 25rem;
     width: 35rem;
-    margin: 2rem;
+    margin: .75rem 2rem .5rem 2rem;
+}
+
+.contact #submit {
+    color: #4166DC;
+    font-size: 2rem;
+    font-weight: bolder;
+    display: block;
+    width: 15rem;
+    margin: 0rem 0rem 0rem 38rem;
 }
 
 .about {
