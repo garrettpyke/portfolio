@@ -1,0 +1,54 @@
+/* ---Mobile styling---  */  
+
+    .wrapper {
+        height: 100px;
+        width: 100%;
+        background-color: paleturquoise;
+        display: flex;
+    }
+
+    
+
+    #header {
+
+    }
+
+    .main container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        
+    }
+
+    #top-container {
+        background-color: lightseagreen;
+        
+    }
+
+    #bottom-container {
+       
+        /* display: block; */
+        height: 250px;      
+        /* text-align: center; */
+        /* font-size: 50px; */
+    }
+
+    #footer {
+        height: 100px;
+        width: 100%;
+    }   
+
+
+ /* ---Tablet styling---  */
+@media screen and (min-width: 768px) {
+    
+    #container {
+        background-color: lightgoldenrodyellow;
+    }
+
+}
+
+/* ---Desktop styling---  */
+@media screen and (min-width: 992px) { 
+
+
+}

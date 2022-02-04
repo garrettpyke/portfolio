@@ -10,14 +10,16 @@
 
 .main-container {
     display: grid;
-    grid-template-rows: 1fr 7fr 7fr 7fr 7fr 1fr;
+    grid-template-rows: 1fr repeat(4, 7fr) 1fr
   
 }
 
 .projects {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
+   /* grid-template-columns: repeat(3, 1fr) not sure why, but this doesn't align as well */
    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   /* grid-template-rows: repeat(8, 1fr) not sure why, but this doesn't align as well */
    grid-gap: 5px;
 }
 
