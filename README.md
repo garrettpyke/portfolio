@@ -1,114 +1,111 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Unit 1 Project Build A Portfolio Site
+# Project Overview
 
-## Overview
+## Project Schedule
 
-This project will give you a chance to use the skills we've learned in class to create a site that highlights the skills and projects you'll be working on in WDI. You'll get a chance to use JavaScript to tackle interactions such as an image slider, a responsive hamburger menu, and quotes that fade in and out on a timer.
+This schedule will be used to keep track of progress throughout the week and align with expectations.  
 
-Make sure to customize the design and content of the website to make it your own.
+|  Day | Deliverable | Status
+|---|---| ---|
+|Day 1| Project Description | Incomplete
+|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 4| MVP & Bug Fixes | Incomplete
+|Day 5| Final Touches | Incomplete
+|Day 6| Present | Incomplete
 
-You will be working individually for this project, but we'll be guiding you throughout the process and helping as you go.
+## Project Description
 
----
+This project will be the first draft of the framework for my personal portfolio web applications. It will include a landing page, an About Me section, placeholders for other applications to be added, JavaScript logic in the form of image manipulation or simple game, and (if time allows) an Ajax call to a weather API. 
 
-## Prerequistes
+## Wireframes
 
-In order to help set you up for success you are required to do the following before you attempt to plan out your project:
+Include images of wireframe with a description of the specific wireframe.   
 
-#### Reading
-
- The [previous cohorts project 1 retrospective](previous-class-project-retrospective.md)
-
-There are alot of helpful hints and hindsight that were captured after the completion of project 1 which are sure to help provide some guidance on what to and not to do during this project. 
-
-#### Watch
-
- [Mastering Markdown](https://masteringmarkdown.com/) - 34min
-
- You will need to write and update markdown for this project as will be the case for all future projects so it's your responsibility to become familiar with the syntax.  
-
----
-
-## Requirements
-
-Your work must:
-
-- Use semantic markup for HTML and CSS, adhering to best practices.
-- Use CSS GRID and Flexbox.
-- Must be mobile mobile first, then tablet and desktop responsive.
-- Must implement javascript to extend functionality by implementing 1 of the following
-	1. AJAX requests
-	2. Animations
-	3. Javascript logic
-	4. jQuery interactions
-- Be deployed and accessible online via Github Pages. 
----
-
-## Necessary Deliverables
-
-- An About, Projects and Contact page.
-- Site must be created using a "mobile first" approach. 
-- A Git repository, hosted on your personal GitHub, that includes a link to your hosted site. Site url should be in the form of githubusername.github.io. 
-- Repo must contain frequent commits (min 15+) dating back to the beginning of the project.
-- An updated project worksheet with all sections filled out accordingly. 
-- An in-class demo of the site that shows off the interactions you worked on.
-
-## Portfolio Samples
-
-Check out portfoliios that look awesome and emulate the parts that speak to you. Here are some that we like but you should google around and find stuff you're into.
-
- - [denisechandler.com](http://www.denisechandler.com/)
-
- - [mattfarely.ca](http://mattfarley.ca/)
-
- - [sebkay.com](http://sebkay.com/)
- 
- ### Previous SEI Students
-
- - [helloaileen.com](http://helloaileen.com)
- 
- - [lianapenn.com](https://www.lianapenn.com/)
- 
- 
+- Mobile & Desktop - [wireframe](https://git.generalassemb.ly/garrett-pyke/project-1-portfolio/blob/master/Wireframe.pdf)
 
 
-### Finding Good Portfolio Sites To Emulate 
+## Time/Priority Matrix 
 
-Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site. 
+* [Priority Matrix](https://git.generalassemb.ly/garrett-pyke/project-1-portfolio/blob/master/priority-matrix.pdf)
 
-Here is a sample of what that reserach will look like:
+### MVP/PostMVP - 5min
 
-Link To Site  | One Thing I'd Like To Incorporate | 
-| ------------- | ------------- |
-| [http://www.denisechandler.com/](http://www.denisechandler.com/)| initial animation\drawing on page load
-|[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
-| [http://mattfarley.ca/](http://mattfarley.ca/) |  layout of the projects
+The functionality will be divided into two separate lists: MPV and PostMVP.
 
-<hr>
+#### MVP
 
----
-#### Suggested Ways to Get Started
+- Page rendering for **Mobile**, **Tablet** & **Desktop**
+	* Home
+	* Projects
+	* About
+	* Contacts
+- Navigation working
+- Data content
+- Images/icons formatted correctly
+- Form in Contact page
+- JS logic for random image/greeting or game
 
-- Don't hesitate to write throwaway code to solve short-term problems.
-- Read the documentation for whatever technologies you use. **Most of the time — but not always — there is a tutorial you can follow, and learning to read documentation is crucial to your success as a developer.**
-- **Write pseudocode before you write any JavaScript code.** Planning out and thinking through interactions for a website is an important step that will save you time and effort when you start actually coding.
-- Do not simply copy and paste code that you find online! It is OK (and highly encouraged) to use resources like Stack Overflow when thinking through interactions, but use these sites as a guide and then write the code on your own.
+#### PostMVP 
 
-#### Front End Libraries
+- Carousel
+- Ajax / API
+- JS game
 
-Try exploring these css libraries:
 
-- [https://materializecss.com/](https://materializecss.com/)
-- [https://getbootstrap.com/](https://getbootstrap.com/)
+#### MVP
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: | 
+| HTML framework | H | 1 hr | hr
+| Mobile layout/grid | H | 2hr | hr |
+| Responsive | H | 3hr | hr | hr |
+| Desktop layout/grid | H | 2.5hr | hr
+| Navigation bar | H | 1hr | hr |
+| JQuery Navigation Logic | H | 3hr | hr |  
+| Adding Form | M | 2hr|  hr | 
+| Images & icons | M | 2hr | hr|
+| General aesthetics/fonts/etc. | H | 3hrs|  hr | 
+| Hamburger | H | 2hr | hr |
+| Total | H | 21.5 hrs| hrs |
 
----
-## Hungry For More?
+#### PostMVP
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: | 
+| API integration | L | 2hr |  hr |
+| JavaScript game | L | 2.5hr |  hr |
+| Total | H | 4.5hrs| hrs |
 
-If you're looking for an extra challenge, try tackling some of the tasks below:
+## Additional Libraries
+ JQuery
+ Ajax (post-MVP)
 
-* Add a contact us form that submits to Google Sheets or Firebase 
-* Add a skills section featuring skills you have/will have learned in the class.
-* Add a image carousel
-* Add a theme changer or dark/light mode
-* Show the weather of your visitor using a 3rd party API
+## Code Snippet
 
----
+A brief code snippet of functionality and description:  
+
+```
+{
+	// code snippet
+}
+```
+
+## Citations 
+- Matt Fartley `mfarley.ca` for layout ideas
+- Stack Overflow for vertically aligning text: <br>
+	`	div { 					` <br>
+	`height: 100px;				` <br>
+	line-height: 100px;
+	text-align: center;
+	border: 2px dashed #f69c55;
+	}
+	span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	}							`
+
+## Issues and Resolutions
+ Use this section to list of all major issues encountered and their resolution.
+
+#### SAMPLE.....
+**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
+**RESOLUTION**: Missing comma after first object in sources {} object
