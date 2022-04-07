@@ -7,7 +7,6 @@ $(() => {
     const min = date.getMinutes();
     const sec = date.getSeconds();
     const milliSec = date.getMilliseconds();
-    //console.log(`${hour}:${min}:${sec}.${milliSec}`);
     const timeNow = `${hour}:${min}:${sec}.${milliSec}`;
 
     console.log(timeNow);
@@ -32,23 +31,19 @@ $(() => {
 
     console.log(whatImDoing);
 
-    console.log(`It's now ${timeNow}. I'm probably ${whatImDoing}, but I'm most likely ${whatIDo[1]}.`)
+    console.log(
+      `It's now ${timeNow}. I should be ${whatImDoing}, but I'm most likely ${whatIDo[1]}.`
+    );
 
-    const myTimeNow = `It's now ${timeNow}. I'm probably ${whatImDoing}, but I'm most likely ${whatIDo[1]}.`
+    const myTimeNow = `It's now ${timeNow}. I'm probably ${whatImDoing}, but I'm most likely ${whatIDo[1]}.`;
 
     return myTimeNow;
-
   };
 
   forTheRecord = myTime();
 
-  const $homeDiv = $('.home')
-  const $timeP = $('<p>')
+  const $homeDiv = $(".home");
+  const $timeP = $("<p>");
   $timeP.text(forTheRecord);
   $homeDiv.append($timeP);
-
-
-
-
-
 });
