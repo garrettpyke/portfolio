@@ -1,51 +1,45 @@
 .header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .projects {
-    display: grid;
-
+  display: grid;
 }
 
 .main-container {
-    display: grid;
-    grid-template-rows: 1fr repeat(4, 7fr) 1fr
-  
+  display: grid;
+  grid-template-rows: 1fr repeat(4, 7fr) 1fr;
 }
 
 .projects {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   /* grid-template-columns: repeat(3, 1fr) not sure why, but this doesn't align as well */
-   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-   /* grid-template-rows: repeat(8, 1fr) not sure why, but this doesn't align as well */
-   grid-gap: 5px;
-}
-
-#projects-title {
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: repeat(3, 1fr) doesn't align as well */
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: repeat(8, 1fr) doesn't align as well */
+  grid-gap: 5px;
 }
 
 .project-1 {
-    grid-row: 4/7;
+  grid-row: 4/7;
 }
 
 .project-2 {
-    grid-row: 2/5;
-    grid-column: 2/3;
+  grid-row: 2/5;
+  grid-column: 2/3;
 }
 
 .project-3 {
-    grid-column: 3/4;
-    grid-row: 4/7;
+  grid-column: 3/4;
+  grid-row: 4/7;
 }
 
 #about-img {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer {
-    display: flex;
-} 
+  display: flex;
+}

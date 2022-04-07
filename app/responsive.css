@@ -1,57 +1,37 @@
-/* ---Mobile styling---  */  
-    #nav-bar {
-        display: none;
-    }
+/* ---Mobile styling---  */
+#nav-bar {
+  display: none;
+}
 
-    
-
- /* ---Tablet styling---  */
+/* ---Tablet styling---  */
 @media screen and (min-width: 768px) {
-   
-    /* #nav-bar {
+  /* #nav-bar {
         display: flex;
     } */
-
 }
-   
 
 /* ---Desktop styling---  */
-@media screen and (min-width: 992px) { 
-
-    /* --need to get nav working right before I do this--
+@media screen and (min-width: 992px) {
+  /* -- Will be added to support nav--
     .header {
         display: flex;
         align-content:space-between;
     } */
 
-    #dot {
-        order: 0;
-    }
+  #dot {
+    order: 0;
+  }
 
-    #hamburger {
-        display: none;
-    }
+  #hamburger {
+    display: none;
+  }
 
-    #nav-bar {
-        /* display: flex;
-        justify-content: space-around; */
-    }
+  #my-name {
+    margin-top: 5rem;
+  }
 
-    #my-name {
-        margin-top: 5rem;
-    }
-
-    #submit {
-        display: block;
-        text-align: center;
-    }
-
+  #submit {
+    display: block;
+    text-align: center;
+  }
 }
-
-   
-
-   
-
-
-
-

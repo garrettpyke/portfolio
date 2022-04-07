@@ -29,13 +29,11 @@ $(() => {
       whatImDoing = whatIDo[0];
     }
 
-    console.log(whatImDoing);
-
     console.log(
       `It's now ${timeNow}. I should be ${whatImDoing}, but I'm most likely ${whatIDo[1]}.`
     );
 
-    const myTimeNow = `It's now ${timeNow}. I'm probably ${whatImDoing}, but I'm most likely ${whatIDo[1]}.`;
+    const myTimeNow = `It's now ${timeNow}. I should be ${whatImDoing}, but I'm most likely ${whatIDo[1]}.`;
 
     return myTimeNow;
   };
